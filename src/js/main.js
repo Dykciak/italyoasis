@@ -25,3 +25,6 @@ const handleNavItemsAnimation = () => {
 
 navBtn.addEventListener("click", handleNav);
 
+if (/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+    document.querySelector('.hero-img').style.backgroundAttachment = 'scroll';
+}
