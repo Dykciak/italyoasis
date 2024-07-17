@@ -24,3 +24,4 @@ const handleNavItemsAnimation = () => {
 };
 
 navBtn.addEventListener("click", handleNav);
+
